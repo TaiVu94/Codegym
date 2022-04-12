@@ -1,0 +1,47 @@
+
+.header{
+    display: flex;
+    
+}
+#bio{
+    background-color: #5D5C61;
+    overflow: auto;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+ 
+#object1{
+    display: inline-block;
+    width: 49%;
+}
+#object2{
+    display: inline-block;
+    width: 49%;
+}
+#object1{ float:left}
+#object2{float: right}
+
+#buttonh{
+    width: 97%;
+    height: 50px;
+    margin: 5px;
+}
+#music{
+    margin: 10px auto;
+    display: block;
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+#display{
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    border: 1px solid black;
+}
+#list{
+    height: 248px;
+    border: 1px solid black;
+}
