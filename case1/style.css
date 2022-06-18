@@ -1,0 +1,46 @@
+body{
+    font-family:'SF UI Text', sans-serif;
+}
+.top{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 50% 30% ;
+    background: #272882;
+    color: aliceblue;
+}
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    margin: 5px;
+}
+.menu-item{
+    padding: 5px;
+    text-align: center;
+}
+.info{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 5px;
+    justify-content: end;
+}
+.info-item{
+    padding: 5px;
+    text-align: center;
+}
+#logo{
+    width: 100%;
+    margin: 5px;
+}
+.mid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 60% auto ;
+    grid-column-gap: 5px;
+    margin-top: 5px;
+}
+.mid > div{
+    background-color: #272882;
+    height: 500px;
+}
+
+
