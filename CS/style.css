@@ -26,7 +26,18 @@ html {
 body {
     background-color: #020d18;
 }
+@media (max-width:821px) {
+    .header__navbar .header__navbar-list .header__navbar-item .rp{
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .container-box{
+        width: 820px;
+    }
 
+}
 /*=================HEADER===========*/
 .header {
     width: 100%;
